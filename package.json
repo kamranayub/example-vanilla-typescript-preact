@@ -1,0 +1,19 @@
+{
+  "name": "example-ts-preact-vanilla",
+  "version": "1.0.0",
+  "description": "Example project with vanilla TypeScript compiler and Preact",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./public",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^10.0.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "preact": "^8.3.1"
+  }
+}

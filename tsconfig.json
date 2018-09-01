@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "jsxFactory": "preact.h",
+        "module": "none",
+        "moduleResolution": "node",
+        "target": "es6",
+        "outDir": "public",
+        "outFile": "public/index.js"
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}
